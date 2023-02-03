@@ -40,9 +40,11 @@ ul li {
 }
 .box {
   background-color: white;
-  height: 300px;
+  /* min-height: 300px; */
   margin: 5px;
   border-radius: 5px;
+  border-bottom: 15px solid #f1f5f9;
+  height: 100%;
 }
 .box .heading {
   padding: 10px 5px 10px 10px;

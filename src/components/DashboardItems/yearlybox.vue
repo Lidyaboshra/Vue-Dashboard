@@ -86,7 +86,7 @@ export default {};
   font-weight: bold;
 }
 .targets-box .target-box .bar {
-  width: 250px;
+  width: 422%;
   height: 3px;
   position: relative;
 }

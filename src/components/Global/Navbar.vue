@@ -10,47 +10,51 @@
         <ul class="navbar-nav" @click="clickedlink">
           <li class="nav-item">
             <RouterLink to="/" class="nav-link dafault-link">
-              <i class="fa-regular fa-chart-bar fa-fw me-2"></i> Dashboard
+              <i class="fa-regular fa-chart-bar fa-fw me-2"></i
+              ><span>Dashboard</span>
             </RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink to="/settings" class="nav-link">
-              <i class="fa-solid fa-gear fa-fw me-2"></i>Settings
+              <i class="fa-solid fa-gear fa-fw me-2"></i>
+              <span>Settings</span>
             </RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink to="/profile" class="nav-link">
-              <i class="fa-regular fa-user fa-fw me-2"></i> Profile</RouterLink
-            >
+              <i class="fa-regular fa-user fa-fw me-2"></i>
+              <span>Profile</span>
+            </RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink to="/projects" class="nav-link"
               ><i class="fa-solid fa-diagram-project fa-fw me-2"></i>
-              Projects</RouterLink
-            >
+              <span>Projects</span>
+            </RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink to="/courses" class="nav-link"
               ><i class="fa-solid fa-graduation-cap fa-fw me-2"></i>
-              Courses</RouterLink
-            >
+              <span>Courses</span>
+            </RouterLink>
           </li>
           <li class="nav-item">
             <RouterLink to="/friends" class="nav-link"
               ><i class="fa-regular fa-circle-user fa-fw me-2"></i>
-              Friends</RouterLink
+              <span>Friends</span></RouterLink
             >
           </li>
           <li class="nav-item">
             <RouterLink to="/files" class="nav-link">
-              <i class="fa-regular fa-file fa-fw me-2"></i> Files</RouterLink
+              <i class="fa-regular fa-file fa-fw me-2"></i>
+              <span>Files</span></RouterLink
             >
           </li>
           <li class="nav-item">
             <RouterLink to="/plans" class="nav-link"
               ><i class="fa-regular fa-credit-card fa-fw me-2"></i>
-              Plans</RouterLink
-            >
+              <span>Plans</span>
+            </RouterLink>
           </li>
         </ul>
       </div>
@@ -88,11 +92,6 @@ export default {
 
 <style scoped>
 @import "../../assets/main.css";
-.dash-nav {
-  /* min-height: 100vh; */
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-  /* z-index: 99; */
-}
 
 .nav {
   position: fixed;
@@ -135,4 +134,17 @@ export default {
 .navbar-nav .nav-item .nav-link.active {
   background-color: var(--grey-color);
 }
+@media (max-width: 820px) {
+  .navbar-nav .nav-item span {
+    display: none;
+  }
+  .navbar-nav .nav-item .nav-link {
+    padding: 0;
+  }
+}
+/* @media (max-width: 540px) {
+  .nav {
+    display: none !important;
+  }
+} */
 </style>

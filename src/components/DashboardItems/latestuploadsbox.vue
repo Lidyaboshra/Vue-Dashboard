@@ -89,7 +89,7 @@ export default {};
 <style scoped>
 .latest-uploads-box:not(:last-of-type) {
   padding: 0 5px 3px;
-  margin: 5px 0;
+  margin: 10px 0;
   border-bottom: 2px solid #eee;
 }
 .latest-uploads-box {

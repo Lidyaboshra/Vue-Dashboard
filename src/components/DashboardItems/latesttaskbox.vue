@@ -63,14 +63,14 @@ export default {};
 <style scoped>
 .latest-task-box {
   justify-content: space-around;
+  padding: 0 5px 8px;
+  margin: 7px 0;
 }
 .latest-task-box:not(:last-of-type),
 .latest-task-box:first-of-type {
-  padding: 0 5px 8px;
-  margin: 7px 0;
   border-bottom: 2px solid #eee;
 }
-.latest-task-box:nth-child(5){
+.latest-task-box:nth-child(5) {
   opacity: 0.4;
 }
 .latest-task-info {

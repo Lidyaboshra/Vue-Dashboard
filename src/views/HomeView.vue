@@ -2,48 +2,48 @@
   <div class="main-content ps-4 py-2">
     <h2 class="mt-3">Dashboard</h2>
     <div class="border-heading"></div>
-    <div class="cards mt-3">
+    <div class="cards mt-3 me-2">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <welcome_box />
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <quick_box />
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <yearly_box />
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <tickets_box />
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <latest_news />
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <latest_tasks />
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <top_search />
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <latest_upload />
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <latest_progress />
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <reminders_box />
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <latest_post />
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12">
           <social_box />
         </div>
       </div>

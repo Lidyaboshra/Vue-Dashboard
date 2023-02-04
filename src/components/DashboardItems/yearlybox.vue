@@ -141,4 +141,9 @@ export default {};
   left: 65%;
   background-color: #63cf97;
 }
+@media (max-width: 384px) {
+  .targets-box .target-box .bar {
+    width: 220%;
+  }
+}
 </style>

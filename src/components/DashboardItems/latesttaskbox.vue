@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="latest-tasks-boxes">
-      <div class="latest-task-box d-flex">
+      <div class="latest-task-box d-flex justify-content-between mx-3">
         <div class="latest-task-info">
           <h6>Record One New Video</h6>
           <p>Record Python Create Exe Project</p>
@@ -16,7 +16,7 @@
         </div>
       </div>
     </div>
-    <div class="latest-task-box d-flex">
+    <div class="latest-task-box d-flex justify-content-between mx-3">
       <div class="latest-task-info">
         <h6>Write Article</h6>
         <p>Write Low Level vs High Level Languages</p>
@@ -25,7 +25,7 @@
         <i class="fa-regular fa-trash-can"></i>
       </div>
     </div>
-    <div class="latest-task-box d-flex">
+    <div class="latest-task-box d-flex justify-content-between mx-3">
       <div class="latest-task-info">
         <h6>Finish Project</h6>
         <p>Publish Academy Programming Project</p>
@@ -34,7 +34,7 @@
         <i class="fa-regular fa-trash-can"></i>
       </div>
     </div>
-    <div class="latest-task-box d-flex">
+    <div class="latest-task-box d-flex justify-content-between mx-3">
       <div class="latest-task-info">
         <h6>Attend The Meeting</h6>
         <p>Attend The Project Business Analysis Meeting</p>
@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    <div class="latest-task-box d-flex">
+    <div class="latest-task-box d-flex justify-content-between mx-3">
       <div class="latest-task-info">
         <h6>Finish Lesson</h6>
         <p>Finish Teaching Flex Box</p>

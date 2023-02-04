@@ -242,9 +242,6 @@ export default {};
 </script>
 
 <style scoped>
-.projects-box .box {
-  height: 250px;
-}
 .projects-box .box .date {
   width: 100%;
   display: block;
@@ -298,6 +295,8 @@ export default {};
   text-align: end;
   border-bottom: 2px solid #eee;
   padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .projects-box .box .projects-languages span {
   background-color: #eee;
@@ -305,6 +304,7 @@ export default {};
   border-radius: 5px;
   margin-left: 5px;
   font-size: 11px;
+  margin-top: 2px;
 }
 .projects-price {
   opacity: 0.5;

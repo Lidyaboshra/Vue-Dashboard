@@ -142,9 +142,26 @@ export default {
     padding: 0;
   }
 }
-/* @media (max-width: 540px) {
-  .nav {
-    display: none !important;
+@media (max-width: 578px) {
+  .nav .circle::after,
+  .nav .circle::before {
+    width: 35px;
   }
-} */
+}
+@media (max-width: 300px) {
+  .nav {
+    font-size: 10px;
+  }
+  .nav h1 {
+    font-size: 17px;
+  }
+  .nav .circle::after,
+  .nav .circle::before {
+    width: 20px;
+  }
+  .nav .circle {
+    height: 7px;
+    width: 7px;
+  }
+}
 </style>

@@ -12,7 +12,7 @@
     </div>
     <div class="discribtion mt-5">
       <hr class="text-black-50" />
-      <div class="details d-flex justify-content-around">
+      <div class="details d-flex justify-content-around flex-wrap">
         <div class="info">
           <p>Lidya Boshra</p>
           <p class="text-center text-black-50">Developer</p>
@@ -60,5 +60,10 @@ export default {};
   z-index: 9;
   border: 4px solid white;
   border-radius: 50%;
+}
+@media (max-width:300px){
+  .text-end{
+    text-align: center !important;
+  }
 }
 </style>

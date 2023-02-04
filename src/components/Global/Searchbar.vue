@@ -26,6 +26,7 @@ export default {};
   border-color: #ccc;
   position: relative;
   outline: #ccc;
+  width: 174px;
 }
 .searchbar .search-input input:focus::placeholder {
   opacity: 0;

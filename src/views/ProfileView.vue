@@ -24,7 +24,7 @@
           <div class="profile-box-contact">
             <div class="profile-general-info mt-3 mx-3">
               <h6 class="text-black-50">General Information</h6>
-              <div class="profile-general-text d-flex">
+              <div class="profile-general-text d-flex flex-wrap">
                 <p class="me-5">
                   <span class="text-black-50">Full Name:</span> Osama Mohamed
                 </p>
@@ -47,7 +47,7 @@
             </div>
             <div class="profile-general-info mt-3 mx-3">
               <h6 class="text-black-50">Personal Information</h6>
-              <div class="profile-general-text d-flex">
+              <div class="profile-general-text d-flex flex-wrap">
                 <p class="me-5">
                   <span class="text-black-50">Email:</span> O@nn.sa
                 </p>
@@ -69,7 +69,7 @@
             </div>
             <div class="profile-general-info mt-3 mx-3">
               <h6 class="text-black-50">Job Information</h6>
-              <div class="profile-general-text d-flex">
+              <div class="profile-general-text d-flex flex-wrap">
                 <p class="me-5">
                   <span class="text-black-50">Title:</span> Full Stack Developer
                 </p>
@@ -93,7 +93,7 @@
             </div>
             <div class="profile-general-info mt-3 mx-3">
               <h6 class="text-black-50">Billing Information</h6>
-              <div class="profile-general-text d-flex">
+              <div class="profile-general-text d-flex flex-wrap">
                 <p class="me-5">
                   <span class="text-black-50">Payment Method:</span> Paypal
                 </p>
@@ -173,7 +173,9 @@
               </div>
             </div>
             <div class="latest-activity-contents">
-              <div class="latest-activity-box d-flex justify-content-between">
+              <div
+                class="latest-activity-box d-flex justify-content-between flex-wrap"
+              >
                 <div class="latest-activity-text">
                   <div class="activity-left-section d-flex">
                     <div class="activity-left-img me-3">
@@ -190,7 +192,9 @@
                   <p class="text-black-50">Yesterday</p>
                 </div>
               </div>
-              <div class="latest-activity-box d-flex justify-content-between">
+              <div
+                class="latest-activity-box d-flex justify-content-between flex-wrap"
+              >
                 <div class="latest-activity-text">
                   <div class="activity-left-section d-flex">
                     <div class="activity-left-img me-3">
@@ -207,7 +211,9 @@
                   <p class="text-black-50">Yesterday</p>
                 </div>
               </div>
-              <div class="latest-activity-box d-flex justify-content-between">
+              <div
+                class="latest-activity-box d-flex justify-content-between flex-wrap"
+              >
                 <div class="latest-activity-text">
                   <div class="activity-left-section d-flex">
                     <div class="activity-left-img me-3">
@@ -224,7 +230,9 @@
                   <p class="text-black-50">Yesterday</p>
                 </div>
               </div>
-              <div class="latest-activity-box d-flex justify-content-between">
+              <div
+                class="latest-activity-box d-flex justify-content-between flex-wrap"
+              >
                 <div class="latest-activity-text">
                   <div class="activity-left-section d-flex">
                     <div class="activity-left-img me-3">
@@ -259,6 +267,7 @@ export default {};
 .profile-activities-section {
   background-color: #fff;
   border-radius: 10px;
+  margin-top: 10px;
 }
 
 .profile-box-img {
@@ -326,6 +335,8 @@ export default {};
   padding-bottom: 10px;
   margin-top: 10px;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .skills-boxes .skills-box span {
   margin-right: 5px;
@@ -333,6 +344,7 @@ export default {};
   background-color: #eee;
   border-radius: 4px;
   font-size: 12px;
+  margin-top: 2px;
 }
 .activity-left-section .activity-left-img {
   width: 50px;

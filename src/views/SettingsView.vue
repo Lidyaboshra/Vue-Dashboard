@@ -109,7 +109,9 @@
               </div>
             </div>
             <div class="security-info-boxes">
-              <div class="security-info-box d-flex justify-content-around mb-2">
+              <div
+                class="security-info-box d-flex justify-content-around mb-2 flex-wrap"
+              >
                 <div class="security-text">
                   <h6>Password</h6>
                   <span>Last Change On 25/10/2021</span>
@@ -118,7 +120,9 @@
                   <button type="button" class="btn btn-primary">Change</button>
                 </div>
               </div>
-              <div class="security-info-box d-flex justify-content-around mb-2">
+              <div
+                class="security-info-box d-flex justify-content-around mb-2 flex-wrap"
+              >
                 <div class="security-text">
                   <h6>Two Factors Authentication</h6>
                   <span>Enable/Disable The Features</span>
@@ -135,7 +139,9 @@
                   </div>
                 </div>
               </div>
-              <div class="security-info-box d-flex justify-content-around mb-2">
+              <div
+                class="security-info-box d-flex justify-content-around mb-2 flex-wrap"
+              >
                 <div class="security-text">
                   <h6>Devices</h6>
                   <span>Check The Login Devices List</span>
@@ -416,11 +422,12 @@ p {
   margin-left: 4px;
   cursor: pointer;
 }
-
-.security-info-box:not(:last-of-type) {
-  border-bottom: 2px solid #eee;
+.security-info-box {
   margin: 10px 5px;
   padding: 5px 10px 10px;
+}
+.security-info-box:not(:last-of-type) {
+  border-bottom: 2px solid #eee;
 }
 .security-info-box .security-text {
   width: 200px;
@@ -459,6 +466,7 @@ p {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+  flex-wrap: wrap;
 }
 .btn.btn-outline-primary {
   display: flex;

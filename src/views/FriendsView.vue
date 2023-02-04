@@ -2,7 +2,9 @@
   <div class="main-content ps-4 py-2">
     <h2 class="mt-3">Friends</h2>
     <div class="border-heading"></div>
-    <div class="friends-boxes-section mt-3 me-3 d-flex justify-content-center">
+    <div
+      class="friends-boxes-section mt-3 me-3 d-flex justify-content-center flex-wrap"
+    >
       <div class="box">
         <span class="ms-3 me-1"><i class="fas fa-phone"></i></span>
         <span><i class="fas fa-envelope"></i></span>
@@ -96,7 +98,9 @@
         </div>
       </div>
     </div>
-      <div class="friends-boxes-section mt-3 me-3 d-flex justify-content-center">
+    <div
+      class="friends-boxes-section mt-3 me-3 d-flex justify-content-center flex-wrap"
+    >
       <div class="box">
         <span class="ms-3 me-1"><i class="fas fa-phone"></i></span>
         <span><i class="fas fa-envelope"></i></span>
@@ -256,6 +260,7 @@ export default {};
 .premissions-friends {
   margin: 2px 7px;
   padding: 5px;
+  flex-wrap: wrap;
 }
 .premissions-friends .friends-date {
   font-size: 14px;

@@ -93,4 +93,9 @@ export default {};
   opacity: 0.5;
   font-size: 12px;
 }
+@media (max-width: 300px) {
+  .reminders-box-content h6 {
+    font-size: 9px;
+  }
+}
 </style>

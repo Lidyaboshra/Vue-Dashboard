@@ -3,7 +3,7 @@
     <h2 class="mt-3">Courses</h2>
     <div class="border-heading"></div>
     <div class="courses-box-section">
-      <div class="courses-boxes d-flex mt-3 me-2">
+      <div class="courses-boxes d-flex mt-3 me-2 flex-wrap">
         <div class="box">
           <div class="course-image">
             <img src="../assets/img/course-01.jpg" alt="img" />
@@ -142,7 +142,7 @@
       </div>
     </div>
     <div class="courses-box-section">
-      <div class="courses-boxes d-flex mt-3 me-2">
+      <div class="courses-boxes d-flex mt-3 me-2 flex-wrap">
         <div class="box">
           <div class="course-image">
             <img src="../assets/img/course-01.jpg" alt="img" />
@@ -343,5 +343,15 @@ export default {};
   width: 50px;
   right: -52px;
   top: 12px;
+}
+@media (max-width: 300px) {
+  .box .button .btn::after {
+    width: 30px;
+    right: -32px;
+  }
+  .box .button .btn::before {
+    width: 30px;
+    left: -32px;
+  }
 }
 </style>

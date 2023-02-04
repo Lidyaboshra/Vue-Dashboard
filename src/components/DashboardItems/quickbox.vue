@@ -19,7 +19,7 @@
         ></textarea>
       </div>
       <div class="button text-end me-1">
-        <button type="button" class="btn btn-primary mb-2">Save</button>
+        <button type="button" class="btn btn-primary  me-4">Save</button>
       </div>
     </div>
   </div>
